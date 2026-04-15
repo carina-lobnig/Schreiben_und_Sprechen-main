@@ -1,4 +1,4 @@
-# Hey hey Vorlage für einen Multimediabeitrag
+# Vorlage für einen Multimediabeitrag
 
 Diese Vorlage ist für Studierende im Modul **Schreiben und Sprechen** (Studiengang MMP, FHGR) gedacht.  
 Ziel ist, multimediales Storytelling mit einer klaren, wiederverwendbaren Struktur umzusetzen:
