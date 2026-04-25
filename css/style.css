@@ -9,7 +9,7 @@
   --line: #2a2f3a;
   --accent: #7dd3fc;
 
-  --ga-large: 2.5rem;
+  --ga-large: 2rem;
   --ga-medium: 1rem;
   --ga-small: 0.5rem;
 
@@ -171,6 +171,11 @@ für Menschen mit Hörbeeinträchtigung */
 .text-toggle summary {
   cursor: pointer;
   font-weight: 700;
+  padding-bottom: 3vh;
+}
+
+.text-toggle p {
+  padding-bottom: 3vh;
 }
 
 .text-toggle[open] summary {
