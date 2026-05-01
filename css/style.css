@@ -171,15 +171,34 @@ für Menschen mit Hörbeeinträchtigung */
 .text-toggle summary {
   cursor: pointer;
   font-weight: 700;
-  padding-bottom: 3vh;
+  background-color: #323232;
+  color: #ffffff;
+  border-radius: 17px;
+  padding-top: 0.7rem;
+}
+
+.text-toggle {
+  padding-bottom: 0.7rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  background-color: #323232;
+  color: #ffffff;
+  border-radius: 17px;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-toggle .figure-caption{
+  color: #ffffff;
 }
 
 .text-toggle p {
-  padding-bottom: 3vh;
+  padding-bottom: 1.2rem;
 }
 
 .text-toggle[open] summary {
-  margin-bottom: .5rem;
+  margin-bottom: 2rem;
 }
 
 
@@ -196,3 +215,29 @@ für Menschen mit Hörbeeinträchtigung */
   transform: rotate(180deg);
 }
 
+
+.tooltip {
+  position: relative;
+  text-decoration: underline;
+  cursor: help;
+  color: #000000;
+}
+
+.tooltip-box {
+  display: none;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #323232;
+  color: #ffffff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  width: 220px;
+  z-index: 10;
+}
+
+.tooltip:hover .tooltip-box {
+  display: block;
+}
